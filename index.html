@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="display">
+            <input type="text" id="tela" readonly>
+        </div>
+        <div class="botoes">
+
+            <button onclick="limpar()" class="rosa">C</button>
+            <button onclick="expressao()" class="rosa">()</button>
+            <button onclick="expressao('%')" class="rosa">%</button>
+            <button onclick="expressao('/')" class="rosa">÷</button>
+
+            <button onclick="expressao('7')">7</button>
+            <button onclick="expressao('8')">8</button>
+            <button onclick="expressao('9')">9</button>
+            <button onclick="expressao('*')" class="rosa">x</button>
+
+            <button onclick="expressao('4')">4</button>
+            <button onclick="expressao('5')">5</button>
+            <button onclick="expressao('6')">6</button>
+            <button onclick="expressao('-')" class="rosa">-</button>
+
+            <button onclick="expressao('1')">1</button>
+            <button onclick="expressao('2')">2</button>
+            <button onclick="expressao('3')">3</button>
+            <button onclick="expressao('+')" class="rosa">+</button>
+
+            <button onclick="expressao()" class="rosa">+/-</button>
+            <button onclick="expressao('0')">0</button>
+            <button onclick="expressao('.')" class="rosa">.</button>
+            <button onclick="resultado()" class="rosa">=</button>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
